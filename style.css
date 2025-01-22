@@ -1,0 +1,10 @@
+body {
+    background-image:url(Assets/Wood-background.avif);
+}
+
+.flex-container-1 {
+    font-family: cursive;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
