@@ -8,9 +8,31 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="flex-container-1">
-        <h1>Pirate Wheel</h1>
-    </nav>
+  <div class="container"></div>
+    <h1>Cookie Cutter></h1>
+    <p>Welcome to the cookie shop, you can buy different cookies here with the points you earn by patience. Your counter rises with every second you wait, and the higher your counter, the bigger the cookie you can buy!</p>
+    
+   <div class="content">
+        <div class="left">
+            <img src="https://openclipart.org/image/800px/249534" alt="Cookie" class="cookie-image" width="300" />
+        </div>
+      <div class="right">
+        <p>Wallet: <span id="wallet">0</p>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="small-cookie" onclick="buyCookie(50)">Small Cookie (50)</button>
+      <button id="medium-cookie" onclick="buyCookie(100)">Medium Cookie (100)</button>
+      <button id="big-cookie" onclick="buyCookie(200)">Big Cookie (200)</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
     
 </body>
 </html>
